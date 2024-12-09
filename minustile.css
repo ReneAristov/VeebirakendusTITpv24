@@ -1,0 +1,36 @@
+ body{
+    font-family: Arial;
+     color: green; /*teksti värv*/
+ }
+ h1{
+     border: solid 1px green;
+     padding: 10%;
+     margin:10px;
+     border-radius: 60px;
+     width: 60%;
+     background-color: greenyellow;
+ }
+ h2{
+     border: dotted 4px green;
+     padding: 1%;
+     margin:10px;
+     border-radius: 60px;
+     width: 60%;
+     background-color: greenyellow;
+ }
+ ul{
+     list-style-type: square;
+     padding:5px;
+     background-color: black;
+ }
+ ul li{
+     background-color: dodgerblue;
+     padding: 10px;
+ }
+ table, td{
+     width: 70%;
+     border: solid 1px green;
+     border-collapse: collapse;
+     text-align: left;
+     background-color: burlywood;
+ }
