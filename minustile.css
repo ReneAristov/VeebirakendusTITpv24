@@ -2,35 +2,35 @@
     font-family: Arial;
      color: green; /*teksti värv*/
  }
- h1{
-     border: solid 1px green;
-     padding: 10%;
-     margin:10px;
-     border-radius: 60px;
-     width: 60%;
-     background-color: greenyellow;
+ h1{ /*Stiil esimese taseme pealkirjale <h1>*/
+     border: solid 1px green; /*määrab rohelise ühtlase äärise, paksusega 1 piksel*/
+     padding: 10%; /*sisemised äärised on 10% elemendi laiusest.*/
+     margin:10px;/* välised äärised (kaugus teistest elementidest) on 10 pikslit.*/
+     border-radius: 60px;/*ümardab ääriste nurki 60 piksliga.*/
+     width: 60%;/*pealkirja laius on 60% konteineri laiusest.*/
+     background-color: greenyellow;/*pealkirja taustavärv on kollakasroheline.*/
  }
  h2{
      border: dotted 4px green;
-     padding: 1%;
-     margin:10px;
-     border-radius: 60px;
-     width: 60%;
+     padding: 3%;
+     margin:20px;
+     border-radius: 70px;
+     width: 50%;
      background-color: greenyellow;
  }
  ul{
-     list-style-type: square;
-     padding:5px;
-     background-color: black;
+     list-style-type: square;/* määrab loendimärgid ruutudeks.*/
+     padding:8px;/*sisemine ääris on 8 pikslit.*/
+     background-color: black;/*loendi taustavärv on must.*/
  }
  ul li{
      background-color: dodgerblue;
-     padding: 10px;
+     padding: 15px;
  }
  table, td{
-     width: 70%;
+     width: 70%; /* tabeli laius on 70% konteineri laiusest.*/
      border: solid 1px green;
-     border-collapse: collapse;
+     border-collapse: collapse; /* ühendab tabeli ja lahtrite äärised (pole topeltjooni).*/
      text-align: left;
      background-color: burlywood;
  }
