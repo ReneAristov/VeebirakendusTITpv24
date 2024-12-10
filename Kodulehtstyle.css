@@ -1,0 +1,47 @@
+header h1{
+    border: solid 2px green; /*määrab rohelise ühtlase äärise, paksusega 1 piksel*/
+    padding: 3%; /*sisemised äärised on 10% elemendi laiusest.*/
+    margin:4px;/* välised äärised (kaugus teistest elementidest) on 10 pikslit.*/
+    border-radius: 40px;/*ümardab ääriste nurki 60 piksliga.*/
+    width: 45%;/*pealkirja laius on 60% konteineri laiusest.*/
+    background-color: greenyellow;/*pealkirja taustavärv on kollakasroheline.*/
+    letter-spacing: 2ch;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type: none;
+    margin:50px;
+    padding:15px;
+    overflow: hidden;
+    background-color: purple;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+   padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+li a:hover{ /*LINGID FOOKUSES*/
+    background-color: darkgreen;
+}
+footer{
+    text-align: center;
+    background-color: burlywood;
+    position: fixed;
+}
+section{
+    background-color: deeppink;
+}
+section h2{
+    text-align: center;
+    color: white;
+}
+section div{
+    color: white;
+    text-align: center;
+}
