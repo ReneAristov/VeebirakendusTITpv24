@@ -1,0 +1,39 @@
+table#Tab1, td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px;
+    /*border-collapse: collapse;*/
+}
+
+table#Tab2 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid purple;
+    text-align: center;
+    padding: 3px;
+    background-color: #2aabd2;
+/*border-collapse: collapse;*/
+}
+
+table#Tab3, table#Tab3 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: #2aabd2;
+    /*border-collapse: collapse;*/
+}
+
+
+table#Tab4, table#Tab4 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: #2aabd2;
+    /*border-collapse: collapse;*/
+}
