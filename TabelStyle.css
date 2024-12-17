@@ -6,6 +6,28 @@ table#Tab1, td{
     padding: 5px;
     /*border-collapse: collapse;*/
 }
+/*tabeli pseudoelementide collapse*/
+#Tab1 tr:nth-child(1) td:nth-child(1){/* 1rida 1lahter*/
+background-color: green;}
+#Tab1 tr:nth-child(1) td:nth-child(2){/* 1rida 2lahter*/
+    background-color: green;}
+#Tab1 tr:nth-child(1) td:nth-child(3){/* 1rida 3lahter*/
+    background-color: green;}
+#Tab1 tr:nth-child(2) td:nth-child(1){/* 2rida 1lahter*/
+    background-color: green;}
+#Tab1 tr:nth-child(2) td:nth-child(2){/* 2rida 2lahter*/
+    background-color: green;}
+#Tab1 tr:nth-child(2) td:nth-child(3){/* 2rida 3lahter*/
+    background-color: green;}
+
+
+
+
+
+
+
+
+
 
 table#Tab2 td{
     /*html failis id=lihtne*/
@@ -37,3 +59,65 @@ table#Tab4, table#Tab4 td{
     background-color: #2aabd2;
     /*border-collapse: collapse;*/
 }
+
+table#Iseseisev, td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px;
+    /*border-collapse: collapse;*/
+}
+
+#Iseseisev tr:nth-child(1) td:nth-child(1){/* 1rida 1lahter*/
+    background-color: green;}
+#Iseseisev tr:nth-child(1) td:nth-child(2){/* 1rida 2lahter*/
+    background-color: purple;}
+#Iseseisev tr:nth-child(1) td:nth-child(3){/* 1rida 3lahter*/
+    background-color: grey;}
+#Iseseisev tr:nth-child(1) td:nth-child(4){/* 2rida 1lahter*/
+    background-color: yellow;}
+#Iseseisev tr:nth-child(2) td:nth-child(1){/* 2rida 2lahter*/
+    background-color: blue;}
+#Iseseisev tr:nth-child(2) td:nth-child(2){/* 2rida 3lahter*/
+    background-color: red;}
+#Iseseisev tr:nth-child(3) td:nth-child(1){/* 1rida 3lahter*/
+    background-color: mediumpurple;}
+#Iseseisev tr:nth-child(3) td:nth-child(2){/* 2rida 1lahter*/
+    background-color: peru;}
+#Iseseisev tr:nth-child(4) td:nth-child(1){/* 2rida 2lahter*/
+    background-color: fuchsia;}
+#Iseseisev tr:nth-child(4) td:nth-child(2){/* 2rida 3lahter*/
+    background-color: firebrick;}
+
+table#Õpetaja, td{
+    /*html failis id=lihtne*/
+    width: 15%;
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse
+
+    /*border-collapse: collapse;*/
+}
+
+#Õpetaja tr:nth-child(1) td:nth-child(1){/* 1rida 1lahter*/
+    background-color: green;}
+#Õpetaja tr:nth-child(2) td:nth-child(1){/* 1rida 2lahter*/
+    background-color: seagreen;}
+#Õpetaja tr:nth-child(2) td:nth-child(2){/* 1rida 3lahter*/
+    background-color: palegreen;}
+#Õpetaja tr:nth-child(2) td:nth-child(3){/* 2rida 1lahter*/
+    background-color: mediumspringgreen;}
+#Õpetaja tr:nth-child(3) td:nth-child(1){/* 2rida 1lahter*/
+    background-color: darkolivegreen;}
+#Õpetaja tr:nth-child(3) td:nth-child(2){/* 2rida 1lahter*/
+    background-color: darkslategray;}
+#Õpetaja tr:nth-child(3) td:nth-child(3){/* 2rida 1lahter*/
+    background-color: lawngreen;}
+#Õpetaja tr:nth-child(4) td:nth-child(1){/* 2rida 1lahter*/
+    background-color: darkseagreen;}
+#Õpetaja tr:nth-child(5) td:nth-child(1){/* 2rida 1lahter*/
+    background-color: green;}
+#Õpetaja tr:nth-child(6) td:nth-child(1){/* 2rida 1lahter*/
+    background-color:greenyellow;}
