@@ -1,0 +1,35 @@
+div{
+    width:8%;
+    border: solid 1pt mediumorchid;
+    position: absolute;
+    left: 15cm;
+    top: 5cm;
+    padding: 2%;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: greenyellow;
+    color: blue;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: greenyellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+header{
+    text-align: center;
+    background-color: greenyellow;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    border: solid 4pt greenyellow;
+    border-radius: 80%;
+    filter: contrast(70%);
+
+}
